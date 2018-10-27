@@ -1,5 +1,5 @@
 public class controls {
-    // 
+    //
     private int GAME_SIZE = 16;
 
     // Keeps track of the current board state,
@@ -16,30 +16,30 @@ public class controls {
         String row2 = String.format(print3, currSize[4], currSize[5], currSize[6], currSize[7]);
         String row3 = String.format(print3, currSize[8], currSize[9], currSize[10], currSize[11]);
         String row4 = String.format(print3, currSize[12], currSize[13], currSize[14], currSize[15]);
-        
+
         // First row
         System.out.println(print1);
         System.out.println(print2);
         System.out.println(row1);
-        System.out.println(print2);        
+        System.out.println(print2);
         System.out.println(print1);
-        
+
         // Row 2
         System.out.println(print2);
         System.out.println(row2);
-        System.out.println(print2);        
+        System.out.println(print2);
         System.out.println(print1);
 
         // Row 3
         System.out.println(print2);
         System.out.println(row3);
-        System.out.println(print2);        
+        System.out.println(print2);
         System.out.println(print1);
 
         // Row 4
         System.out.println(print2);
         System.out.println(row4);
-        System.out.println(print2);        
+        System.out.println(print2);
         System.out.println(print1);
     }
 
