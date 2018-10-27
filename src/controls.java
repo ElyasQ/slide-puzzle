@@ -9,7 +9,7 @@ public class controls {
     // Strings for printing to console
     private String print1 = "+-------+-------+-------+-------+";
     private String print2 = "|       |       |       |       |";
-    private String print3 = "|   %s   |   %s   |   %s   |   %s   |";
+    private String print3 = "|  %2s   |  %2s   |  %2s   |  %2s   |";
 
     public void print() {
         String row1 = String.format(print3, currSize[0], currSize[1], currSize[2], currSize[3]);
